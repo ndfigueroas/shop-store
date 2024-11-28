@@ -1,0 +1,47 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pokemon-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    /* Asegura que no se reduzcan de tamaño */
+}
+
+
+.pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que los elementos se ajusten a nuevas filas */
+    justify-content: space-evenly;
+    /* Distribuye los elementos con espacio entre ellos */
+    gap: 20px;
+    /* Espacio entre las tarjetas de Pokémon */
+}
+
+
+
+.pokemon-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 0.9rem;
+    color: #555;
+}
